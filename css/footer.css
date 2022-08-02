@@ -1,0 +1,30 @@
+footer{
+  background-color: rgba(194, 194, 194, 0.3);
+  text-align: center;
+}
+
+address p{
+  padding-top: 50px;
+  font-weight: 600;
+}
+address img{
+  height: 40px;
+  width: 40px;
+  margin-right: 5px;
+  margin-top: 30px;
+}
+
+.copyright{
+  margin-top: 20px;
+  padding-bottom: 50px;
+  color: rgb(87, 86, 86);
+  font-weight: 600;
+}
+
+.copyright-large-text{
+  font-size: 15px;
+}
+
+.copyright-small-text{
+ font-size: 10px;
+}

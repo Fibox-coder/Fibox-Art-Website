@@ -1,0 +1,182 @@
+body {
+  font-family: 'Nunito', 'Montserrat';
+  margin: 0;
+}
+
+main{
+  padding-top: 130px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+.flexbox img{
+  width: 24%;
+  height: auto;
+  object-fit:contain;
+}
+
+.flexbox img:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.flexbox img:active {
+  width: 35%;
+  height: auto;
+  opacity: 100%;
+  /* This is where Javascript should enlarge image */
+}
+
+h2 {
+  color: #bb8f3d;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+h3{
+  color: #bb8f3d;
+  text-align: center;
+  margin-top: 90px;
+  font-size: 40px;
+  font-style: italic;
+  margin-bottom: 30px; 
+  font-weight: 500;
+}
+
+
+.bio
+{
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+p{
+  color: rgb(87, 86, 86);
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;  
+  text-align: center;
+}
+.gallery-link{
+  color: #bb8f3d;
+  font-weight: bold;
+}
+
+input, textarea{
+width: 250px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 5px;
+padding-right: 200px;
+margin-bottom: 10px;
+border: 0;
+border-bottom: 2px solid #bb8f3d;
+font-weight: bold;
+font-size: 15px;
+transition: background-color 0.2s;
+box-shadow: 0 0 3px #bb8f3d;
+outline: none;
+color: rgb(87, 86, 86);
+
+}
+
+::placeholder { 
+  color: #bb8f3d;
+  opacity: 1;
+}
+
+input:hover, textarea:hover{
+  background-color: #f7ecd6;
+  border-color: grey;
+  }
+
+  input:focus, textarea:focus{
+    background-color: #f7ecd6;
+  }
+
+textarea{
+  font-family: 'Nunito', 'Montserrat';
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+#submit{
+background-color: #bb8f3d;
+color: white;
+padding: 0;
+padding-top: 15px;
+padding-bottom: 15px;
+font-size: 25px;
+border:0;
+width: 150px;
+margin-top: 10px;
+transition: opacity, 0.2s;
+cursor: pointer;
+margin-bottom: 80px;
+
+}
+
+#submit:hover{
+  opacity: 75% 
+}
+
+#submit:active{
+  opacity: 50%;
+}
+
+
+.flex-container-home-page{
+display: flex;
+justify-content:center;
+gap: 70px;
+padding-top: 40px;
+}
+
+.Home-text{
+  width: 400px;
+  text-align: left;
+  font-weight: 300;
+}
+
+@media (max-width: 700px){
+ 
+
+  .flexbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+ }
+
+.flexbox img{
+  width: 100%;
+  object-fit:contain;
+}
+
+
+.flexbox img:active {
+  width: 100%;
+  height: auto;
+  opacity: 100%;
+  /* This is where Javascript should enlarge image */
+}
+
+
+h3{
+  margin: 10px;
+  padding-bottom: 0px;
+}
+
+.flex-container-home-page{
+  flex-direction: column;
+  align-items: center;
+}
+}
+

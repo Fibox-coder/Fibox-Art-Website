@@ -1,0 +1,279 @@
+/* ALL START*/
+
+.p-contact, .p-about, .p-faq{
+  width: 800px;
+  margin: auto;
+  max-width: 100%;
+  line-height: 40px;
+  padding-top: 0;
+  margin-bottom: 70px;
+}
+
+.h3-contact, .h3-about, .h3-faq{
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+
+h4{
+  color: rgb(87, 86, 86);
+  text-align: center;
+  margin-top: 70px;
+  font-size: 30px;
+  margin-bottom: 70px; 
+  font-weight: 600;
+}
+
+.about-images{
+  width: 100%;
+  height: auto;
+  object-fit:contain;
+  padding-bottom: 70px;
+}
+
+.image-text-container{
+  width: 24%;
+  height: auto;
+  position: relative;
+}
+
+.flexbox-about-page{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.year-of-making{
+  font-family: 'Nunito', 'Montserrat';
+  font-weight: 500;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: white;
+  color: rgb(87, 86, 86);
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+@media (max-width: 700px){
+  .flexbox-about-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .image-text-container{
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+
+/* ALL END */
+
+/* ABOUT START*/
+
+
+
+  /*background-color: rgba(187, 143, 61, 0.1);
+
+
+.bio .p-about{
+  text-align: ;
+}
+*/
+
+
+
+
+
+/* ABOUT END */
+
+
+/* FAQ START*/
+
+.box-for-tools{
+box-shadow: 0 0 10px #bb8f3d;
+width: 1200px;
+margin: auto;
+margin-bottom: 50px;
+padding-bottom: 20px;
+padding-top: 20px;
+padding-left: 10px;
+max-width: 65%;
+}
+
+.tools-subject{
+width: 100%;
+}
+
+.tools-subject .subject,
+.tools-subject .p-faq{
+  display: inline-block;
+  vertical-align: top;  
+  text-align: left;
+}
+
+.p-faq{
+  padding-left: 10px;
+  padding-right: 150px;
+  max-width: 95%;
+}
+
+.subject{
+  width: 200px  ;
+  line-height: 40px;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.tool{
+  font-weight: 600;
+}
+
+.text-resources{
+  display: flex;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.course{
+  padding-left: 50px;
+}
+
+
+.wacom-image{
+  margin-top: -40px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  width: 300px;
+  max-width: 90%;
+  height: auto;
+}
+
+.csp-art{
+  width: 500px;
+  margin-right: 50px;
+  display: flex;
+  max-width: 65%;
+}
+
+.csp-logo{
+  display: flex;
+  max-width: 15%;
+  border-radius: 90px;
+}
+
+.flex-csp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: -40px;
+}
+
+.tracing-study, .my-art{
+  width: 700px;
+  margin-bottom: 30px;
+  max-width: 100%;
+} 
+
+
+/* FAQ END*/
+/* Gallery START*/
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  
+}
+
+.grid-images-square{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.grid-images-four{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.grid-images{
+ width: 100%;
+ height: 100%;
+ object-fit:cover;
+}
+
+.image-container{
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.text-over-image-left{
+  font-style: italic;
+  font-weight: 600;
+  position: absolute;
+  top: 15px;
+  right: -25px;
+  font-size: 2vw;
+  background-color: white;
+  border-radius: 50px;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: rgb(128, 128, 128)
+}
+
+.text-over-image-right{
+  font-style: italic;
+  font-weight: 600;
+  position: absolute;
+  top: 15px;
+  left: -25px;
+  font-size: 2vw;
+  background-color: white;
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: rgb(128, 128, 128)
+}
+
+.image-container:hover {
+  cursor: pointer;
+  opacity: 80%;
+
+}
+
+.grid-images-fanart-or-original{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}
+@media (max-width: 700px){
+  .grid-images-fanart-or-original{
+    gap: 10px;
+}
+}
+
+
+
+/* Gallery END*/

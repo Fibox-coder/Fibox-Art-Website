@@ -1,0 +1,172 @@
+header{
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+/*
+note to self for next project, I can use:
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 103px;
+
+  and add padding-top to the body
+*/
+}
+
+h1 {
+  width: 150px;
+  color: #bb8f3d;
+  line-height: 25px;
+  font-style: italic;
+  text-align: left;
+  padding-top: 4px;
+  position: absolute;
+  
+  }
+  
+h1 a {
+  text-decoration:none;
+}
+
+.name {
+  font-size: 50px;
+  cursor: pointer;
+  color: rgb(199, 63, 72);
+  margin-left: 25px;
+  font-family: 'Times New Roman';
+}
+
+.profession {
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 50px;
+  font-style: italic;
+  margin-left: 25px;
+  margin-right: 0px;
+  font-family: 'Times New Roman';
+}
+
+h1, ul{
+  display: table-cell;
+}
+
+ul{
+  padding: 0;
+  white-space: nowrap;
+  display:block;
+  
+}
+
+
+ul li {
+  display: inline-block;
+  }
+
+ul li:hover ul {
+  display: block;
+  white-space:normal;
+}
+
+ul li ul {  
+  position: absolute;
+  width: 100px;
+  display:none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0;
+  padding-right: 0;
+  }
+
+ul li ul li { 
+  background: white; 
+}
+
+
+ul a {   
+  display: inline-block; 
+  color: grey;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: color 0.4s, background-color 0.4s;
+  margin: 0;
+  text-align: center;
+  width: 150px;
+  box-sizing: border-box;
+}
+
+
+ul a:hover {
+background-color: #bb8f3d;
+color: white;
+}
+
+.instagram_icon{
+  position: absolute;
+  top: 23px;
+  right: 23px;
+  border-radius: 25px;
+  height: 50px; 
+  width: 50px;
+}
+
+
+.horizontal_line {
+  background-color: #bb8f3d;
+  height: 2px;  
+  border: 0px;
+  width: 800px;
+  margin-top: 0;
+  margin-bottom: 15px;
+ }
+
+ 
+
+ @media (max-width: 700px){
+
+  main{
+    padding-top: 180px;
+  }
+
+  ul{
+    height: 130px;
+  }
+  ul li {
+    display: block;
+    }
+
+    ul li {
+      position: relative;
+      margin-right: 0;
+      padding-right: 0;
+    }
+
+    ul li ul {  
+      height: 25px;
+      top: 0;
+      right: 100px;
+      margin-right: 0;
+      margin-left: 0;
+      }
+
+      ul li:hover ul {
+        display: flex;
+        white-space:normal;
+      }
+
+      ul a {   
+        font-size: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 75px;
+      }
+
+      .horizontal_line{
+        margin-top: 25px;
+      }
+ }
