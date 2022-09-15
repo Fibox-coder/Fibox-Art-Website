@@ -26,6 +26,10 @@
       rel="stylesheet"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
     <style>
       .home {
         color: #bb8f3d;
@@ -72,7 +76,7 @@
     <!-- Images starts-->
 
     <main>
-      <div class="flexbox" id="gallery">
+      <!-- <div class="flexbox" id="gallery">
         <img
           class="jean"
           src="images/2022-04-05_jean_fate_resized.jpg"
@@ -93,6 +97,83 @@
           src="images/2022-02-01_lara.jpg"
           alt="Fanart Maplestory"
         />
+      </div> -->
+
+      <div class="carousel-container">
+        <i class="fas fa-angle-left" id="prevBtn"></i>
+        <i class="fas fa-angle-right" id="nextBtn"></i>
+
+        <div id="" class="carousel-slide">
+          <img
+            id="lastClone"
+            src="images/fanart/2022-05-05_ironmouse.jpg"
+            class="carousel-images"
+            alt="img"
+          />
+          <img
+            src="images/fanart/2022-06-03_itsuki.jpg"
+            class="carousel-images"
+            alt="img"
+          />
+          <!--If you change this image, also change firstClone-->
+          <img
+            src="images/2022-04-05_jean_fate_resized.jpg"
+            class="carousel-images"
+            alt="img"
+          />
+          <img
+            src="images/original/2022-03-01_stylized_portrait.jpg"
+            class="carousel-images"
+            alt="img"
+          />
+          <img
+            src="images/fanart/2022-02-01_lara.jpg"
+            class="carousel-images"
+            alt="img"
+          />
+          <img
+            src="images/original/2021-09-07_mage.jpg"
+            class="carousel-images"
+            alt="img"
+          />
+          <img
+            src="images/original/2021-10-04_demongirl.jpg"
+            class="carousel-images"
+            alt="img"
+          />
+          <img
+            src="images/original/2021-11-08.jpg"
+            class="carousel-images"
+            alt="img"
+          />
+          <img
+            src="images/fanart/2022-05-05_ironmouse.jpg"
+            class="carousel-images"
+            alt="img"
+          />
+          <!--If you change this image, also change lastClone-->
+          <img
+            id="firstClone"
+            src="images/fanart/2022-06-03_itsuki.jpg"
+            class="carousel-images"
+            alt="img"
+          />
+          <img
+            src="images/2022-04-05_jean_fate_resized.jpg"
+            class="carousel-images"
+            alt="img"
+          />
+          <img
+            src="images/original/2022-03-01_stylized_portrait.jpg"
+            class="carousel-images"
+            alt="img"
+          />
+          <img
+            src="images/fanart/2022-02-01_lara.jpg"
+            class="carousel-images"
+            alt="img"
+          />
+        </div>
       </div>
 
       <!-- Images ends-->
@@ -239,5 +320,7 @@
     </footer>
 
     <!-- Footer ends-->
+
+    <script src="app.js"></script>
   </body>
 </html>

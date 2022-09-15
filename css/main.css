@@ -1,12 +1,64 @@
 body {
   font-family: 'Nunito', 'Montserrat';
   margin: 0;
+  overflow: hidden;
+  overflow-y: auto;
 }
 
 main{
   padding-top: 130px;
 }
 
+.carousel-images{
+  width: 650px;
+  height: auto;
+  margin-right: 10px; 
+}
+
+.carousel-images:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+#lastClone{
+  margin: 0;
+}
+
+.carousel-container{
+  width: 100%;
+  margin:auto;
+  /* border: 5px solid black; */
+  position: relative;
+}
+
+.carousel-slide{
+  display: flex;
+  width: 100%;
+  height: auto
+}
+
+#prevBtn{
+  position:absolute;
+  top:50%;
+  z-index: 10;
+  left: 20px;
+  font-size: 100px;
+  color: white;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#nextBtn{
+  position:absolute;
+  top:50%;
+  z-index: 10;
+  right: 1%;
+  font-size: 100px;
+  color: white;
+  opacity: 0.8;
+  cursor: pointer;
+}
+/* 
 .flexbox {
     display: flex;
     justify-content: space-evenly;
@@ -27,8 +79,7 @@ main{
   width: 35%;
   height: auto;
   opacity: 100%;
-  /* This is where Javascript should enlarge image */
-}
+} */
 
 h2 {
   color: #bb8f3d;
