@@ -53,4 +53,6 @@ function leftSlide(){
 }
 
 // automatically slides 1 image
-// setInterval(rightSlide, 5000);
+setInterval(rightSlide, 5000);
+
+

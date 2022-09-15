@@ -100,6 +100,16 @@ h3{
   font-weight: 500;
 }
 
+/* .form-container{
+  margin-left: 2500px;
+  } */
+
+  .flex-container-home-page{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding-top: 40px;
+  }
 
 .bio
 {
@@ -183,14 +193,6 @@ margin-bottom: 80px;
   opacity: 50%;
 }
 
-
-.flex-container-home-page{
-display: flex;
-justify-content:center;
-gap: 70px;
-padding-top: 40px;
-}
-
 .Home-text{
   width: 400px;
   text-align: left;
@@ -225,9 +227,29 @@ h3{
   padding-bottom: 0px;
 }
 
-.flex-container-home-page{
+.flex-container{
   flex-direction: column;
   align-items: center;
 }
 }
 
+
+/* Animation */
+
+
+.animateRight{
+  transform: translateX(230px);
+}
+
+.animateLeft{
+  transform: translateX(-230px);
+}
+
+.animateBottom{
+  transform: translateY(100px);
+}
+
+.animationDisplay{
+  transform: translateY(0);
+  transition: transform ease 1.5s;
+}

@@ -187,28 +187,32 @@
           &#183;&#183;&#183;&#183;&#183;&#62;
         </h3>
 
-        <div class="flex-container-home-page">
+       
           <!-- 
           <h3>
             &#60;&#183;&#183;&#183;&#183;&#183; About me
             &#183;&#183;&#183;&#183;&#183;&#62;
           </h3>
           -->
-          <p class="Home-text">
-            I am Fibox, An illustrator and character designer. I've been drawing
-            for 6+ years now, which resulted in the portfolio you can see in
-            <a class="gallery-link" href="gallery.html" target="blank">
-              my gallery.</a
-            >
+          <div class="flex-container-home-page">
+          <div class="bio-container animateLeft">
+            <p class="Home-text">
+              I am Fibox, An illustrator and character designer. I've been
+              drawing for 6+ years now, which resulted in the portfolio you can
+              see in
+              <a class="gallery-link" href="gallery.html" target="blank">
+                my gallery.</a
+              >
 
-            <br /><br />
-            Hope you'll enjoy looking around my website! If you have any
-            questions, feel free to either hit me up on Instagram, or use the
-            contact form.
+              <br /><br />
+              Hope you'll enjoy looking around my website! If you have any
+              questions, feel free to either hit me up on Instagram, or use the
+              contact form.
 
-            <br /><br />
-            P.S. I currently am not open for commission.
-          </p>
+              <br /><br />
+              P.S. I currently am not open for commission.
+            </p>
+          </div>
 
           <!-- Bio ends-->
           <!-- Contact starts-->
@@ -219,8 +223,7 @@
             &#183;&#183;&#183;&#183;&#183;&#62;
           </h3>
         -->
-          <div id="contact-form">
-            <form method="post" action="#">
+            <form method="post" action="#" class="contact-form animateRight">
               <!--action= Where do I want the contact form to go to?-->
               <div>
                 <input
@@ -266,7 +269,7 @@
                 <input type="submit" value="Send" id="submit" class="submit" />
               </div>
             </form>
-          </div>
+            </div>
         </div>
       </div>
     </main>
@@ -275,6 +278,7 @@
     <!-- Footer starts-->
 
     <footer>
+      <div class="animateBottom">
       <address>
         <p>Social Media:</p>
         <a href="https://www.instagram.com/fibox.art/" target="blank"
@@ -317,10 +321,12 @@
           owners.
         </p>
       </div>
+    </div>
     </footer>
 
     <!-- Footer ends-->
 
-    <script src="app.js"></script>
+    <script src="appmain.js"></script>
+    <script src="animation.js"></script>
   </body>
 </html>

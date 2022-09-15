@@ -1,6 +1,7 @@
 footer{
   background-color: rgba(194, 194, 194, 0.3);
   text-align: center;
+  overflow-y: hidden;
 }
 
 address p{
